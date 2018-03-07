@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-title：类继承
+title：New和Init
 Created on  2018-03-07
 @author: xj2sgh
 '''

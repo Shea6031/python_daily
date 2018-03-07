@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-title：类继承
+title：方法对象
 Created on  2018-03-07
 @author: xj2sgh
 '''
