@@ -22,7 +22,7 @@ scores = [[65, 90, 75], [85, 80, 90]] # 成绩
 def draw_multibar(name, subjects, value):
     font_size = 10 # 字体大小
     fig_size = (8, 6) # 图表大小
-    size = len(names)
+    size = len(name)
     n = len(subjects)
     x = np.arange(size)
     
@@ -42,7 +42,7 @@ def draw_multibar(name, subjects, value):
     plt.ylim(ymax=100, ymin=0)
 
     # 绘制
-    value = np.array(value)
+    #value = np.array(value)
     for i in range(n):
         rects1 = plt.bar(x+i*width, value[:,i],  width=width, label=subjects[i])
         add_labels(rects1)
@@ -67,5 +67,5 @@ def add_labels(rects):
         rect.set_edgecolor('white')
 
 
-
+scores = np.array(scores)
 draw_multibar(names,subjects, scores)

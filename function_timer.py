@@ -27,4 +27,4 @@ def sumfunction():
     print(sum)
     
 if __name__ =="__main__":
-    myfunction()
+    sumfunction()
